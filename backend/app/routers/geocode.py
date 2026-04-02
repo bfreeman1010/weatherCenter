@@ -6,7 +6,7 @@ import httpx
 router = APIRouter(prefix="/geocode", tags=["geocode"])
 
 NOMINATIM_URL = "https://nominatim.openstreetmap.org"
-HEADERS = {"User-Agent": "WeatherRadarApp/1.0"}
+HEADERS = {"User-Agent": "weatherCenter/1.0 (https://github.com/bfreeman1010/weatherCenter)"}
 
 
 @router.get("/search")
